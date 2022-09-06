@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music app</title>
+</head>
+<body>
+    <h1>Music player</h1>
+    <div class="music-container " >
+        <div class="music-info">
+            <h4 id="title">
+                romantic
+            </h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <audio src="audio/romantic.mp3" id="audio"></audio>
+        <div class="img-container">
+            <img src="img/romantic.jpg" alt="music art" id="cover">
+        </div>
+        <div class="navigation">
+            <button id="prev" class="action-btn">
+                <img src="svg/fast-backward-arrows-button-svgrepo-com.svg" alt="" >
+            </button>
+            <button id="play" class="action-btn-big">
+                <img src="svg/1718976.svg" alt="" id="pause">
+            </button>
+            <button id="next" class="action-btn">
+                <img src="svg/fast-forward-button-svgrepo-com.svg" alt="">
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
